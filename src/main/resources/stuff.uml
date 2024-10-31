@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/Adam.Hosek/projects/training/kotlin-generics/src/main/kotlin/com/ataccama/example/factory/Stuff.kt</OriginalElement>
+  <nodes>
+    <node x="322.0" y="151.0">com.ataccama.example.factory.ABS</node>
+    <node x="-43.0" y="398.0">com.ataccama.example.factory.Clamp</node>
+    <node x="674.1521739130435" y="67.0">com.ataccama.example.factory.Metal</node>
+    <node x="485.5" y="314.0">com.ataccama.example.factory.Toy</node>
+    <node x="446.0" y="398.0">com.ataccama.example.factory.ActionFigure</node>
+    <node x="223.79166666666669" y="230.0">com.ataccama.example.factory.Product</node>
+    <node x="-43.0" y="151.0">com.ataccama.example.factory.PineTimber</node>
+    <node x="375.6521739130435" y="67.0">com.ataccama.example.factory.Plastic</node>
+    <node x="751.0" y="151.0">com.ataccama.example.factory.Steel</node>
+    <node x="576.0" y="151.0">com.ataccama.example.factory.Aluminium</node>
+    <node x="68.4021739130435" y="67.0">com.ataccama.example.factory.Timber</node>
+    <node x="368.0" y="-17.0">com.ataccama.example.factory.Material</node>
+    <node x="442.0" y="151.0">com.ataccama.example.factory.HDPE</node>
+    <node x="37.59722222222223" y="314.0">com.ataccama.example.factory.Tool</node>
+    <node x="642.0" y="398.0">com.ataccama.example.factory.DollHouse</node>
+    <node x="97.00000000000003" y="398.0">com.ataccama.example.factory.Screwdriver</node>
+    <node x="141.0" y="151.0">com.ataccama.example.factory.OakTimber</node>
+    <node x="287.0" y="398.0">com.ataccama.example.factory.RaceCar</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ataccama.example.factory.ABS" target="com.ataccama.example.factory.Plastic" relationship="REALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="372.0" y="126.0" />
+      <point x="436.6521739130435" y="126.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="com.ataccama.example.factory.Plastic" target="com.ataccama.example.factory.Material" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="436.6521739130435" y="42.0" />
+      <point x="435.5" y="42.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="com.ataccama.example.factory.Metal" target="com.ataccama.example.factory.Material" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="730.6521739130435" y="42.0" />
+      <point x="435.5" y="42.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="com.ataccama.example.factory.Tool" target="com.ataccama.example.factory.Product" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="88.59722222222223" y="289.0" />
+      <point x="290.2916666666667" y="289.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="com.ataccama.example.factory.OakTimber" target="com.ataccama.example.factory.Timber" relationship="REALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="221.5" y="126.0" />
+      <point x="131.4021739130435" y="126.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="com.ataccama.example.factory.Timber" target="com.ataccama.example.factory.Material" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="131.4021739130435" y="42.0" />
+      <point x="435.5" y="42.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="com.ataccama.example.factory.HDPE" target="com.ataccama.example.factory.Plastic" relationship="REALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="499.0" y="126.0" />
+      <point x="436.6521739130435" y="126.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="com.ataccama.example.factory.DollHouse" target="com.ataccama.example.factory.Toy" relationship="REALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="719.0" y="373.0" />
+      <point x="534.0" y="373.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="com.ataccama.example.factory.Screwdriver" target="com.ataccama.example.factory.Tool" relationship="REALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="182.00000000000003" y="373.0" />
+      <point x="88.59722222222223" y="373.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="com.ataccama.example.factory.RaceCar" target="com.ataccama.example.factory.Toy" relationship="REALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="356.5" y="373.0" />
+      <point x="534.0" y="373.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="com.ataccama.example.factory.Clamp" target="com.ataccama.example.factory.Tool" relationship="REALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="17.0" y="373.0" />
+      <point x="88.59722222222223" y="373.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="com.ataccama.example.factory.PineTimber" target="com.ataccama.example.factory.Timber" relationship="REALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="39.0" y="126.0" />
+      <point x="131.4021739130435" y="126.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="com.ataccama.example.factory.ActionFigure" target="com.ataccama.example.factory.Toy" relationship="REALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="com.ataccama.example.factory.Aluminium" target="com.ataccama.example.factory.Metal" relationship="REALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="653.5" y="126.0" />
+      <point x="730.6521739130435" y="126.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="com.ataccama.example.factory.Steel" target="com.ataccama.example.factory.Metal" relationship="REALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="805.5" y="126.0" />
+      <point x="730.6521739130435" y="126.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="com.ataccama.example.factory.Toy" target="com.ataccama.example.factory.Product" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-17.0" />
+      <point x="534.0" y="289.0" />
+      <point x="290.2916666666667" y="289.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="false" x="418.5" y="217.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
